@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>CTF Bonline Judge</title>
+  </head>
+  <body>
+
+    <!-- Image and text -->
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.9expert.co.th%2Fsites%2Fdefault%2Ffiles%2F2017-09%2Ficon-bootstrap.png&f=1&nofb=1" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+      online Judge
+    </a>
+  </nav>
+
+    <div class="container" style="padding-top: 100px; padding-bottom: 100px">
+
+      <div class="card">
+
+        <div class="card-header">
+          Problems :<b> TEST ONLY</b>
+        </div>
+
+        <div class="card-body">
+          <table class="table table-bordered"><tbody><tr><td>Time limit</td><td>2 s</td></tr><tr><td>Memory limit</td><td>256 MB</td></tr></tbody></table>
+
+          <div class="html-text"><h3 id="description" style="text-align: justify;">Description</h3>
+
+<p style="text-align: justify;">Given A and B, calculate A+B</p>
+
+
+
+
+
+
+
+<h3 id="input-format" style="text-align: justify;">Input Format</h3>
+
+<p style="text-align: justify;">The first line is as follows:</p>
+
+<pre style="text-align: justify;"><code><span class="hljs-attribute">A B</span>
+</code></pre>
+
+
+
+
+
+<h3 id="output-format" style="text-align: justify;">Output Format</h3>
+
+<p style="text-align: justify;">Print the sum of A and B with end line (/n)</p>
+
+<h3 id="sample-input" style="text-align: justify;">Sample Input</h3>
+
+<pre style="text-align: justify;"><code>
+<span class="hljs-symbol">3 </span><span class="hljs-number">5</span>
+
+</code></pre>
+
+<h3 id="sample-output" style="text-align: justify;">Sample Output</h3>
+
+<pre style="text-align: justify;"><code><span class="hljs-number">8</span>
+
+</code></pre>
+
+
+</div>
+        </div>
+
+
+
+      </div>
+
+      <div class="card">
+
+        <form enctype="multipart/form-data" action="#" method="POST">
+
+            {% csrf_token %}
+            {{form}}
+
+        <button type="Submit">Submit</button>
+      </form>
+
+      </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
